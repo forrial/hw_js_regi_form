@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+                <span class="title">Registration</span>
+                <form>
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your name" id="username" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your email" id="email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" placeholder="Create a password" id="password" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" placeholder="Confirm a password" id="confpassword" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    
+                    <div class="checkbox-content">
+                        <input type="checkbox" id="check">
+                        <label for="check" class="text">I accepted the rules</label>
+                    </div>
+                    
+                    <div class="input-field button">
+                        <input type="button" onclick="register()" value="Register">
+                    </div>
+
+                    <br>
+
+                    <div class="input-field button">
+                        <input type="button" onclick="registerWithGoogle()" value="Register with Google">
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" onclick="registerWithGitHub()" value="Register with GitHub">
+                    </div>
+                </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebeff2;
+}
+
+.container{
+    max-width: 450px;
+    width: 100%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px grey;
+    margin: 0 20px;
+}
+
+.container .form{
+    width: 100%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.container .form .title{
+    position: relative;
+    left: 33%;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.form .input-field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.input-field input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    
+}
+
+.input-field i{
+    position: absolute;
+    top: 25%;
+    color: grey;
+    font-size: 20px;
+}
+
+.form .button input{
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #4caf50;
+    cursor: pointer;
+}
+
+.form .button input:hover {
+    background-color: #45a049;
+}
+
+.checkbox-content{
+    margin-top: 10px;
+}
+
+.checkbox-content input:hover,
+.checkbox-content label:hover{
+    cursor: pointer;
+}
